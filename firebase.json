@@ -3,6 +3,6 @@
     "site": "kelink",
     "public": "public",
     "appAssociation": "AUTO",
-    "rewrites": [ { "source": "/app/**", "dynamicLinks": true } ]
+    "rewrites": [ { "source": "/**", "dynamicLinks": true } ]
   }
 }
