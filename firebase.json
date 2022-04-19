@@ -7,5 +7,8 @@
       "**/.*",
       "**/node_modules/**"
     ]
+    // Dynamic Links will start with https://link.indonesiya.com/app
+    "appAssociation": "AUTO",
+    "rewrites": [ { "source": "/app/**", "dynamicLinks": true } ]
   }
 }
