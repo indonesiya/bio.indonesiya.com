@@ -1,8 +1,11 @@
 {
   "hosting": {
-    "site": "kelink",
+    "site": "bioindonesiyah",
     "public": "public",
-    "appAssociation": "AUTO",
-    "rewrites": [ { "source": "/**", "dynamicLinks": true } ]
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
   }
 }
